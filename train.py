@@ -1,6 +1,5 @@
 import numpy as np
 from src import ModelUtil, Model
-from keras.layers import Dense, Dropout, LSTM, BatchNormalization, Conv2D, Flatten
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import ReduceLROnPlateau, TensorBoard
 from keras.utils import plot_model
